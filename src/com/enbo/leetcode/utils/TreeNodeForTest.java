@@ -1,4 +1,4 @@
-package com.enbo.leetcode.easy;
+package com.enbo.leetcode.utils;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -7,14 +7,14 @@ import java.util.Queue;
  * Created by user on 2020/7/20.
  */
 public class TreeNodeForTest {
-    TreeNode root;
-    TreeNode node1;
-    TreeNode node2;
-    TreeNode node3;
-    TreeNode node4;
-    TreeNode node5;
-    TreeNode node6;
-    TreeNode node7;
+    public TreeNode root;
+    public TreeNode node1;
+    public TreeNode node2;
+    public TreeNode node3;
+    public TreeNode node4;
+    public TreeNode node5;
+    public TreeNode node6;
+    public TreeNode node7;
 
     public TreeNodeForTest(){
         this(0,1,2,3,4,5,6,7);
@@ -62,8 +62,8 @@ public class TreeNodeForTest {
         while(!queue.isEmpty()){
             TreeNode node = queue.poll();
             System.out.print(node.val + ", ");
-           if(null != node.left){queue.add(node.left);};
-           if(null != node.right){queue.add(node.right);};
+           if(null != node.left){queue.add(node.left);}
+           if(null != node.right){queue.add(node.right);}
         }
     }
 }

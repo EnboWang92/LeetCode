@@ -1,16 +1,16 @@
-package com.enbo.leetcode.easy;
+package com.enbo.leetcode.utils;
 
 /**
  * Created by user on 2020/7/11.
  */
 public class ListNodeForTest {
 
-    ListNode node1;
-    ListNode node2;
-    ListNode node3;
-    ListNode node4;
-    ListNode node5;
-    ListNode node6;
+    public ListNode node1;
+    public ListNode node2;
+    public ListNode node3;
+    public ListNode node4;
+    public ListNode node5;
+    public ListNode node6;
 
     private Integer DEFAULT_PRINT_LENGTH = 100;
 

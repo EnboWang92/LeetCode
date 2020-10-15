@@ -1,5 +1,8 @@
 package com.enbo.leetcode.easy;
 
+import com.enbo.leetcode.utils.ListNode;
+import com.enbo.leetcode.utils.ListNodeForTest;
+
 /**
  * Created by user on 2020/7/11.
  */

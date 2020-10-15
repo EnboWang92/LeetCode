@@ -1,5 +1,8 @@
 package com.enbo.leetcode.easy;
 
+import com.enbo.leetcode.utils.TreeNode;
+import com.enbo.leetcode.utils.TreeNodeForTest;
+
 /**
  * Created by user on 2020/7/20.
  */
